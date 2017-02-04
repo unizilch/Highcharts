@@ -1,15 +1,19 @@
 package cn.hcharts.exporting;
 
 import java.io.File;
+
 import java.io.FileInputStream;
 
 import java.io.FileOutputStream;
+
 import java.io.OutputStreamWriter;
 
 import javax.servlet.http.HttpServletRequest;
+
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.struts2.ServletActionContext;
+
 import com.opensymphony.xwork2.ActionSupport;
 
 import cn.hcharts.svg.MyConverter;
@@ -19,7 +23,7 @@ import cn.hcharts.svg.MyConverter;
  * SVG 转换类，实现将SVG文件转换为常见图片格式文件
  * @author Zhy
  * 
- * publish on Highcharts中文网  http://www.hcharts.cn 
+ * publish on Highcharts中文网  
  *
  * 导出步骤：
  * 	1、接受页面提交的参数   （ 可以将参数打印出来以确保页面提交过来的代码不会乱码）

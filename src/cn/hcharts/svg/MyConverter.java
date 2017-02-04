@@ -9,10 +9,10 @@ import org.apache.batik.apps.rasterizer.SVGConverter;
 import org.apache.batik.apps.rasterizer.SVGConverterException;
 
 /**
- * SVG 转换类，实现将SVG文件转换为常见图片格式文件
+ * SVG 转换类，实现将SVG文件转换为常见图片文件
  * @author Zhy
  * 
- * publish on Highcharts中文网  http://www.hcharts.cn 
+ * publish on Highcharts中文网  
  *
  */
 public class MyConverter extends SVGConverter{
