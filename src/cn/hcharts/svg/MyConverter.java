@@ -3,7 +3,9 @@ package cn.hcharts.svg;
 import java.io.File;
 
 import org.apache.batik.apps.rasterizer.DestinationType;
+
 import org.apache.batik.apps.rasterizer.SVGConverter;
+
 import org.apache.batik.apps.rasterizer.SVGConverterException;
 
 /**
